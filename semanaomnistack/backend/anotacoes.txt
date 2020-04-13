@@ -1,0 +1,55 @@
+
+1 - Baixar o gerenciador de pacotes chocolatey
+2 - Instalar o NodeJs usando o chocolatey -> cinst nodejs-lts
+3 - npx create-react-app frontend
+4 - npm install expres -> Instalar o express
+5 - npm init -y -> Instalar o React
+6 - node index.js -> Rodar o projeto
+======================================================================
+
+Métodos HTTP
+
+GET: Buscar/listar informações 
+POST: Criar informações
+PUT: Alterar informações
+DELETE: Deletar informações
+======================================================================
+
+Tipos de parâmetros:
+
+Query Params: Parâmetros nomeados e inseridos diretamente na rota/url (http://localhost3333/users?page=2&nome=andre&idade=29)
+Route Params: Parâmetros usados para identificar recursos (http://localhost3333/users/1)
+Request Body: Corpo da requisição
+======================================================================
+
+Comandos
+
+npm start index.js -> Executar o projeto
+npx knex init -> Inicializar as configurações de acesso ao banco de dados 
+npx knex migrate:make create_ongs -> Criar migrations
+npx knex migrate:latest -> Executar migrations
+
+======================================================================
+
+Dependencias de Desenvolvedor
+
+npm install nodemon -d -> Pacote responsável pelo livereload quando o código é alterado
+npm install knex -> Query builder para NodeJs
+npm install sqlite3 -> Driver para banco sqlite3
+npm install cors
+======================================================================
+
+Validações de rotas
+
+npm install celebrate
+
+
+======================================================================
+
+Testes
+
+npm install jest -D
+npx jest --init
+npm test 
+npm install cross-env
+npm install supertest -D

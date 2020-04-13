@@ -1,0 +1,9 @@
+npm install -g expo-cli
+expo init
+npm install @react-navigation/native
+npm install @react-navigation/stack
+npm install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+expo install expo-mail-composer
+npm install axios
+expo install  expo-constants react-native-gesture-handler react-native-reanimated react-native-screens
+npm install intl
