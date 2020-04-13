@@ -1,0 +1,4 @@
+[submodule "semanaomnistack/frontend"]
+	url = https://github.com/mediote/rocketseat.git
+[submodule "gostack/nivel01/desafios"]
+	url = https://github.com/mediote/rocketseat.git
